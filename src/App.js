@@ -18,8 +18,6 @@ function App() {
         const result = await fetch("https://logiclike.com/docs/courses.json");
         const data = await result.json();
 
-        console.log(data);
-
         if (!ignore) {
           setData(data);
         }

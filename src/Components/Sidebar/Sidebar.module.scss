@@ -1,0 +1,34 @@
+.sidebar_container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    border: 1px solid #cfcfe4;
+    border-radius: 18px;
+    padding: 12px;
+    gap: 5px;
+}
+
+.category {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    &:hover {
+        background-color: #e6ffed;
+        cursor: pointer;
+    }
+
+    &.selected {
+        background-color: #5fbf77;
+        color: white;
+    }
+}
+
+.category_name {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0;
+}
